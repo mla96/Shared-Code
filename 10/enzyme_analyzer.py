@@ -28,7 +28,7 @@ class EnzymeAnalyzer(object):
         c != EnzymeAnalyzer.REACTION_RATE_NAME][0]
     self.substrate_concentration = (
         csv_file_reader.GetColumnData(substrate_name))
-    self.substrate_concentration = (
+    self.reaction_rate = (
         csv_file_reader.GetColumnData(EnzymeAnalyzer.REACTION_RATE_NAME))
 
 
